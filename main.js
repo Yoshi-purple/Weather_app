@@ -40,7 +40,9 @@
     weather_el.innerText = weather.weather[0].main;
 
     let hilow = document.querySelector(".hi-low");
-    hilow.innerText = `${weather.main.temp_min}°c / ${weather.main.temp_max}℃`;
+    hilow.innerText = `${Math.round(weather.main.temp_min)}°c / ${Math.round(
+      weather.main.temp_max
+    )}℃`;
   }
 
   function dateBuilder(d) {

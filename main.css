@@ -8,7 +8,7 @@
 
 body {
   font-family: "Hind Madurai", sans-serif;
-  background-image: url(img/bg.jpg);
+  background-image: url(img/bg2.jpg);
   background-size: cover;
   background-position: top center;
 }
@@ -39,7 +39,7 @@ header input {
   outline: none;
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 40px 0px 40px 0px;
-  border-bottom: 3px solid rgba(40, 119, 119, 0.6);
+  border-bottom: 3px solid rgba(40, 119, 47, 0.6);
 
   color: #313131;
   font-size: 15px;
