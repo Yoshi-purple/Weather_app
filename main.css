@@ -7,10 +7,10 @@
 }
 
 body {
-  font-family: "Courier New", Courier, monospace;
-  background-image: url(img/bg.jpg);
+  font-family: "Hind Madurai", sans-serif;
+  background-image: url(img/bg2.jpg);
   background-size: cover;
-  background-position: top center;
+  background-position: center;
 }
 
 .app-wrap {
@@ -33,21 +33,114 @@ header {
 
 header input {
   width: 100%;
-  max-width: 280px;
-  padding: 10px 15px;
+  max-width: 240px;
+  padding: 15px 15px;
   border: none;
   outline: none;
   background-color: rgba(255, 255, 255, 0.3);
-  border-radius: 26px 0px 26px 0px;
-  border-bottom: 3px solid rgba(40, 119, 119, 0.6);
+  border-radius: 50px 10px 50px 10px;
+  border-bottom: 3px solid rgba(40, 119, 47, 0.6);
 
   color: #313131;
-  font-size: 20px;
+  font-size: 1rem;
   font-weight: 300;
   transition: 0.9s ease-out;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 18px;
 }
 
 header input:focus {
   background-color: rgba(255, 255, 255, 0.6);
-  border-bottom: 3px solid rgba(180, 132, 42, 0.6);
+  border-bottom: 3px solid rgba(255, 199, 94, 0.3);
+  border-radius: 40px 40px 40px 40px;
+  max-width: 300px;
+  font-size: 1.5rem;
+}
+
+main {
+  flex: 1 1 100%;
+  padding: 25px 25px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: rgba(255, 228, 196, 0.644);
+}
+
+.location .city {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 9px;
+  letter-spacing: 3px;
+}
+
+.location .date {
+  color: #fff;
+  font-size: 18px;
+}
+
+.current .temp {
+  color: #fff;
+  font-size: 140px;
+  font-weight: 900;
+  text-shadow: 2px 6px 9px rgba(0, 0, 0, 0.6);
+  letter-spacing: 6px;
+}
+
+.current .temp span {
+  font-weight: 500;
+  font-size: 36px;
+}
+
+.current .weather {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  padding: 3px 0;
+  border-bottom: 0.1px solid rgba(255, 228, 196, 0.3);
+}
+
+.current .hi-low {
+  font-size: 25px;
+  color: rgba(255, 228, 196, 0.644);
+  margin: 5px 0;
+  letter-spacing: 3px;
+}
+
+.current .hi-low span {
+  font-size: 10px;
+}
+
+.message {
+  background-color: rgba(255, 228, 196, 0.151);
+  margin-top: 45px;
+  font-size: 21px;
+  border-radius: 36px;
+  padding: 18px 54px;
+  color: #fff;
+}
+
+.button {
+  letter-spacing: 30px;
+  font-size: 30px;
+  margin: 100px 0 15px 0;
+  transition: 0.9s;
+  opacity: 0.6;
+}
+.button:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+.weekly .week {
+  font-size: 30px;
+  transition: 0.9s ease;
+  opacity: 0.6;
+  margin-top: 18px;
+}
+.weekly .week:hover {
+  cursor: pointer;
+  opacity: 1;
 }
