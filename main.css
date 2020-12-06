@@ -38,13 +38,16 @@ header input {
   border: none;
   outline: none;
   background-color: rgba(255, 255, 255, 0.3);
-  border-radius: 40px 0px 40px 0px;
+  border-radius: 50px 10px 50px 10px;
   border-bottom: 3px solid rgba(40, 119, 47, 0.6);
 
   color: #313131;
-  font-size: 15px;
+  font-size: 27px;
   font-weight: 300;
   transition: 0.9s ease-out;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 36px;
 }
 
 header input:focus {
@@ -90,17 +93,33 @@ main {
 
 .current .weather {
   color: #fff;
-  font-size: 32px;
-  font-weight: 800;
+  font-size: 36px;
+  font-weight: 500;
   letter-spacing: 3px;
   padding: 3px 0;
   border-bottom: 0.1px solid rgba(255, 228, 196, 0.3);
 }
 
 .current .hi-low {
+  font-size: 25px;
   color: rgba(255, 228, 196, 0.644);
   margin: 5px 0;
+  letter-spacing: 3px;
 }
+
+.current .hi-low span {
+  font-size: 10px;
+}
+
+.message {
+  background-color: rgba(255, 228, 196, 0.151);
+  margin-top: 45px;
+  font-size: 21px;
+  border-radius: 36px;
+  padding: 18px 54px;
+  color: #fff;
+}
+
 .button {
   letter-spacing: 30px;
   font-size: 30px;
